@@ -75,7 +75,7 @@ function Index() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-md shadow-elegant">
               <img
                 src={heroImg}
-                alt="THREADBYKAY model wearing a burgundy silk gown"
+                alt="THREADBYKAY model wearing a burgundy polo and baggy joggers"
                 width={1280}
                 height={1600}
                 className="h-full w-full object-cover"

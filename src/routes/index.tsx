@@ -73,12 +73,17 @@ function Index() {
           <div className="relative">
             <div className="absolute -inset-6 -z-10 rounded-3xl bg-gradient-gold opacity-20 blur-3xl" />
             <div className="relative aspect-[4/5] overflow-hidden rounded-md shadow-elegant">
-              <img
-                src={heroImg}
-                alt="THREADBYKAY baggy grey joggers"
-                width={1280}
-                height={1600}
+              <video
+                src="/hero.mp4"
+                poster={heroImg}
+                controls
+                playsInline
+                autoPlay
+                muted
+                loop
+                preload="metadata"
                 className="h-full w-full object-cover"
+                aria-label="THREADBYKAY baggy grey joggers"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 hidden rounded-md bg-card p-5 shadow-card md:block">

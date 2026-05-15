@@ -15,8 +15,8 @@ export const Route = createFileRoute("/shop")({
   validateSearch: search,
   head: () => ({
     meta: [
-      { title: "Shop — THREADBYKAY" },
-      { name: "description", content: "Browse THREADBYKAY's full collection of clothes and trousers. Order via WhatsApp." },
+      { title: "Shop Joggers — THREADBYKAY" },
+      { name: "description", content: "Browse THREADBYKAY's full collection of unisex joggers, tops and sets. Order via WhatsApp." },
     ],
   }),
   component: Shop,
@@ -38,8 +38,8 @@ function Shop() {
 
   const tabs = [
     { key: "all", label: "All" },
-    { key: "clothes", label: "Clothes" },
-    { key: "trousers", label: "Trousers" },
+    { key: "trousers", label: "Joggers" },
+    { key: "clothes", label: "Tops & Sets" },
   ] as const;
 
   return (
@@ -50,7 +50,7 @@ function Shop() {
           <p className="text-xs uppercase tracking-[0.25em] text-gold">The Collection</p>
           <h1 className="mt-3 font-display text-5xl text-primary md:text-6xl">Shop THREADBYKAY</h1>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-            Curated pieces for the modern woman. Tap any item to order on WhatsApp.
+            Unisex joggers and everyday streetwear. Tap any item to order on WhatsApp.
           </p>
         </div>
 

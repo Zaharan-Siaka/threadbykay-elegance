@@ -11,10 +11,10 @@ import heroImg from "@/assets/hero.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "THREADBYKAY — Bold Feminine Fashion" },
-      { name: "description", content: "THREADBYKAY: elegant, confident clothing & trousers handpicked for the modern woman. Order on WhatsApp." },
-      { property: "og:title", content: "THREADBYKAY — Bold Feminine Fashion" },
-      { property: "og:description", content: "Elegant, confident clothing handpicked for the modern woman." },
+      { title: "THREADBYKAY — Unisex Joggers & Streetwear" },
+      { name: "description", content: "THREADBYKAY: premium unisex joggers and everyday streetwear made for comfort and confidence. Order on WhatsApp." },
+      { property: "og:title", content: "THREADBYKAY — Unisex Joggers & Streetwear" },
+      { property: "og:description", content: "Premium unisex joggers crafted for comfort, fit, and everyday confidence." },
       { property: "og:image", content: heroImg },
     ],
   }),
@@ -44,28 +44,28 @@ function Index() {
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 md:grid-cols-2 md:py-24">
           <div className="relative z-10">
             <span className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-primary">
-              <Sparkles className="h-3 w-3" /> New Season
+              <Sparkles className="h-3 w-3" /> New Drop
             </span>
             <h1 className="mt-5 font-display text-5xl leading-[1.05] text-primary sm:text-6xl md:text-7xl">
-              Wear your <em className="text-gold not-italic">confidence</em>.
+              Joggers built for <em className="text-gold not-italic">everyone</em>.
             </h1>
             <p className="mt-5 max-w-md text-lg text-muted-foreground">
-              Handcrafted clothing and tailored trousers, made for the woman
-              who walks into every room owning it.
+              Premium unisex joggers and everyday streetwear — designed for
+              comfort, cut for fit, made to move with you.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 to="/shop"
                 className="inline-flex items-center gap-2 rounded-sm bg-primary px-6 py-3 text-xs uppercase tracking-[0.2em] text-primary-foreground shadow-elegant transition-transform hover:-translate-y-0.5"
               >
-                Shop the collection <ArrowRight className="h-4 w-4" />
+                Shop joggers <ArrowRight className="h-4 w-4" />
               </Link>
               <Link
                 to="/shop"
                 search={{ category: "trousers" }}
                 className="inline-flex items-center gap-2 rounded-sm border border-primary/30 px-6 py-3 text-xs uppercase tracking-[0.2em] text-primary hover:bg-primary/5"
               >
-                Explore trousers
+                Browse the collection
               </Link>
             </div>
           </div>
@@ -98,17 +98,17 @@ function Index() {
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <div className="grid gap-5 md:grid-cols-2">
           <CategoryCard
-            title="Clothes"
-            blurb="Dresses, tops & elegant statement pieces."
+            title="Joggers"
+            blurb="Unisex baggy, tapered & relaxed-fit joggers."
             to="/shop"
-            search={{ category: "clothes" }}
+            search={{ category: "trousers" }}
             tone="primary"
           />
           <CategoryCard
-            title="Trousers"
-            blurb="Tailored, flowing & power-cut silhouettes."
+            title="Tops & Sets"
+            blurb="Tees, hoodies and matching sets to complete the look."
             to="/shop"
-            search={{ category: "trousers" }}
+            search={{ category: "clothes" }}
             tone="gold"
           />
         </div>
@@ -143,8 +143,8 @@ function Index() {
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <div className="grid gap-6 rounded-lg border border-border bg-card p-8 shadow-card md:grid-cols-3">
           <Perk icon={<Truck />} title="Nationwide delivery" body="Fast, secure shipping across Nigeria." />
-          <Perk icon={<MessageCircle />} title="Personal service" body="Order directly via WhatsApp with Kay." />
-          <Perk icon={<Sparkles />} title="Crafted with care" body="Quality fabrics, tailored finishes." />
+          <Perk icon={<MessageCircle />} title="Order on WhatsApp" body="Chat with Kay to place your order in minutes." />
+          <Perk icon={<Sparkles />} title="Built to last" body="Heavyweight fabrics, clean stitching, true fit." />
         </div>
       </section>
 

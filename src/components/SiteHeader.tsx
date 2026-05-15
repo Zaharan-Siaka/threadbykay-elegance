@@ -7,8 +7,8 @@ export function SiteHeader() {
   const links = [
     { to: "/", label: "Home" },
     { to: "/shop", label: "Shop" },
-    { to: "/shop", search: { category: "clothes" }, label: "Clothes" },
-    { to: "/shop", search: { category: "trousers" }, label: "Trousers" },
+    { to: "/shop", search: { category: "trousers" }, label: "Joggers" },
+    { to: "/shop", search: { category: "clothes" }, label: "Tops & Sets" },
     { to: "/about", label: "About" },
   ];
 

@@ -11,15 +11,15 @@ export function SiteFooter() {
             THREAD<span className="text-gold">BY</span>KAY
           </p>
           <p className="mt-3 max-w-sm text-sm text-muted-foreground">
-            Confident, feminine clothing crafted for the modern woman.
+            Premium unisex joggers and everyday streetwear, made to move with you.
           </p>
         </div>
         <div>
           <p className="text-xs uppercase tracking-widest text-muted-foreground">Shop</p>
           <ul className="mt-4 space-y-2 text-sm">
             <li><Link to="/shop" className="hover:text-primary">All pieces</Link></li>
-            <li><Link to="/shop" search={{ category: "clothes" }} className="hover:text-primary">Clothes</Link></li>
-            <li><Link to="/shop" search={{ category: "trousers" }} className="hover:text-primary">Trousers</Link></li>
+            <li><Link to="/shop" search={{ category: "trousers" }} className="hover:text-primary">Joggers</Link></li>
+            <li><Link to="/shop" search={{ category: "clothes" }} className="hover:text-primary">Tops & Sets</Link></li>
           </ul>
         </div>
         <div>

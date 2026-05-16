@@ -16,7 +16,7 @@ export const Route = createFileRoute("/shop")({
   head: () => ({
     meta: [
       { title: "Shop Joggers — THREADBYKAY" },
-      { name: "description", content: "Browse THREADBYKAY's full collection of unisex joggers, tops and sets. Order via WhatsApp." },
+      { name: "description", content: "Browse THREADBYKAY's full collection of unisex joggers, tops and polo. Order via WhatsApp." },
     ],
   }),
   component: Shop,
@@ -39,7 +39,7 @@ function Shop() {
   const tabs = [
     { key: "all", label: "All" },
     { key: "trousers", label: "Joggers" },
-    { key: "clothes", label: "Tops & Sets" },
+    { key: "clothes", label: "Tops & polo" },
   ] as const;
 
   return (

@@ -24,13 +24,13 @@ function About() {
         </h1>
         <div className="prose prose-lg mt-8 max-w-none text-muted-foreground">
           <p>
-            THREADBYKAY is a Lagos-rooted streetwear label built on one belief:
+            THREADBYKAY is a kogi-rooted streetwear label founded by SIAKA ORAHACHI BARAKAT on one belief:
             what you wear should feel like you — comfortable, confident, and
             unmistakably yours.
           </p>
           <p>
-            We design unisex joggers and everyday essentials in heavyweight
-            fabrics, clean cuts, and fits that work on every body. Baggy,
+            We deal in unisex joggers,polos and everyday accesories in really affordable prices
+            our productss are made with quality fabrics, clean cuts, and fits that work on every body. Baggy,
             tapered, relaxed — pieces made to move with you.
           </p>
           <p>

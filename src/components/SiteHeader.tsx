@@ -8,7 +8,7 @@ export function SiteHeader() {
     { to: "/", label: "Home" },
     { to: "/shop", label: "Shop" },
     { to: "/shop", search: { category: "trousers" }, label: "Joggers" },
-    { to: "/shop", search: { category: "clothes" }, label: "Tops & Sets" },
+    { to: "/shop", search: { category: "clothes" }, label: "Tops & polo" },
     { to: "/about", label: "About" },
   ];
 

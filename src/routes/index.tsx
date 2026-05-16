@@ -105,8 +105,8 @@ function Index() {
             tone="primary"
           />
           <CategoryCard
-            title="Tops & Sets"
-            blurb="Tees, hoodies and matching sets to complete the look."
+            title="Tops & polo"
+            blurb="Tees, hoodies and matching polo to complete the look."
             to="/shop"
             search={{ category: "clothes" }}
             tone="gold"

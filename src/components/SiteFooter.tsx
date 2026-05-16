@@ -19,7 +19,7 @@ export function SiteFooter() {
           <ul className="mt-4 space-y-2 text-sm">
             <li><Link to="/shop" className="hover:text-primary">All pieces</Link></li>
             <li><Link to="/shop" search={{ category: "trousers" }} className="hover:text-primary">Joggers</Link></li>
-            <li><Link to="/shop" search={{ category: "clothes" }} className="hover:text-primary">Tops & Sets</Link></li>
+            <li><Link to="/shop" search={{ category: "clothes" }} className="hover:text-primary">Tops & polo</Link></li>
           </ul>
         </div>
         <div>

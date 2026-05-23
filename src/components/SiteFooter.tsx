@@ -11,7 +11,7 @@ export function SiteFooter() {
             THREAD<span className="text-gold">BY</span>KAY
           </p>
           <p className="mt-3 max-w-sm text-sm text-muted-foreground">
-            Premium unisex joggers and everyday streetwear, made to move with you.
+            Unisex joggers, polos and accessories — Kogi-rooted streetwear at affordable prices.
           </p>
         </div>
         <div>

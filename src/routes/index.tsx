@@ -50,8 +50,8 @@ function Index() {
               Joggers built for <em className="text-gold not-italic">everyone</em>.
             </h1>
             <p className="mt-5 max-w-md text-lg text-muted-foreground">
-              Premium unisex joggers and everyday streetwear — designed for
-              comfort, cut for fit, made to move with you.
+              Unisex joggers, polos and everyday accessories at really
+              affordable prices — quality fabrics, clean cuts, made to move with you.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
@@ -106,7 +106,7 @@ function Index() {
           />
           <CategoryCard
             title="Tops & polo"
-            blurb="Tees, hoodies and matching polo to complete the look."
+            blurb="Polos and everyday accessories at affordable prices."
             to="/shop"
             search={{ category: "clothes" }}
             tone="gold"

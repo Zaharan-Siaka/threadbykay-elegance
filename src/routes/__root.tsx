@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "THREADBYKAY,  baggy jogggers & polo made to move with you" },
+      { name: "description", content: "ThreadByKay Elegance is a modern, mobile-responsive online clothing store for female fashion." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "THREADBYKAY,  baggy jogggers & polo made to move with you" },
+      { property: "og:description", content: "ThreadByKay Elegance is a modern, mobile-responsive online clothing store for female fashion." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "THREADBYKAY,  baggy jogggers & polo made to move with you" },
+      { name: "twitter:description", content: "ThreadByKay Elegance is a modern, mobile-responsive online clothing store for female fashion." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/GCy82kRh0cWGVhyBEBneMFovkAA2/social-images/social-1779610560261-THREADBYKAY_LOGO_2.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/GCy82kRh0cWGVhyBEBneMFovkAA2/social-images/social-1779610560261-THREADBYKAY_LOGO_2.webp" },
     ],
     links: [
       {
